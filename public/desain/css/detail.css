@@ -1,0 +1,171 @@
+.header-detail{
+    width: 100%;
+    border: 1px solid #fff;
+    overflow: hidden;
+    margin-top: 15px;
+    border-radius: 20px;
+    position: relative; 
+}
+
+.header-detail img{
+    width: 100%;
+}
+
+.kembali {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    transform: translate(0, 0);
+    text-align: center;
+    z-index: 2;
+    background-color: rgba(207, 207, 207, 0.384);
+    backdrop-filter: blur(5px);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.isi-text {
+    display: flex;
+    margin-top: 20px;
+}
+
+.user-detail{
+    display: flex;
+}
+
+.harga-detail{
+    font-weight: bold;
+    font-size: 20px;
+    color: #a30606;
+    margin-right: auto;
+}
+
+.comen a{
+    color: #52b3d9 ;
+}
+
+.comen a:hover{
+    color: #52b3d9 ;
+    text-decoration: none;
+}
+
+.asu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.detail-icon {
+    display: flex;
+    color: #080808;
+    justify-content: center;
+    margin-bottom: -15px;
+}
+
+.detail-icon p {
+    margin-top: 10px;
+}
+
+.description{
+    margin-top: 10px;
+}
+
+.description p {
+    color: #080808;
+    font-size: 15px;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.garis-detail {
+    border-top: 1px solid #333;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.garis-detail-comen {
+    border-top: 1px solid #dbd9d9;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.button-detail{
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+}
+
+.nilai-rating{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgb(16 16 16 / 54%);
+}
+
+.user-rating{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info-rating {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    height: 200px;
+  }
+
+.tambahKeKeranjangButton{
+    width: 50%;
+    padding: 10px 10px;
+    border: 1px solid #52b3d9 ;
+    background-color: #ffff;
+    color: #52b3d9 ;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.cek-detail{
+    width: 50%;
+    padding: 10px 10px;
+    border: 1px solid #52b3d9 ;
+    background-color: #52b3d9 ;
+    color: #ffff;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.custom-ok-button {
+    background-color: #2eada7 !important;
+    color: #fff !important;
+}
+
+.banyak{
+    display: flex;
+    align-items: center;
+    color: #333;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+        .header-detail{
+        padding: 0;
+    }
+        .header-detail img{
+        object-fit: cover;
+        border-radius: 0;
+    }
+    .kembali{
+        top: 20px;
+        left: 20px;
+    }
+    .info-rating {
+        height: 100px;
+      }
+}

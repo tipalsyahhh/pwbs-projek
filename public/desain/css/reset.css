@@ -1,0 +1,31 @@
+.reset-password p {
+    color: #000;
+}
+
+.judul-reset {
+    color: #000;
+    font-weight: bold;
+}
+
+.login-link {
+    color: #023349;
+    text-decoration: none;
+    transition: color 0.3s, border-bottom-color 0.3s;
+    border-bottom: 1px solid transparent;
+}
+
+.login-link:hover {
+    color: #0056b3;
+    border-bottom-color: #0056b3;
+}
+
+.button-password{
+    background-color: #2eada7; 
+    color: #fff;
+    margin-top: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+    padding: 8px 10px;
+}

@@ -1,0 +1,199 @@
+/* Container utama */
+
+.papan-toko {
+    width: 100%;
+    height: 80px;
+    margin-top: 18%;
+    background-color: #fff;
+    border: 1px solid #333;
+}
+
+.modal-content {
+    margin-bottom: 20px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 100%;
+    /* Lebar sesuai kebutuhan Anda */
+    height: auto;
+    /* Tinggi sesuai kebutuhan Anda */
+    cursor: pointer;
+    overflow: hidden;
+    position: center;
+}
+
+#profile-modal img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card-text-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Teks dalam card */
+.card-text {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.caption p {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 4px;
+    color: #080808;
+}
+
+.produk-isi {
+    display: flex;
+}
+
+.produk-isi p {
+    color: #080808;
+}
+
+.harga-masuk {
+    color: #a30606;
+    font-weight: bold;
+}
+
+.button-user-like-comen {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-user-like-comen form {
+    margin: 0;
+}
+
+.button-user-like-comen a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-user-like-comen a:hover {
+    text-decoration: none;
+    color: #080808;
+}
+
+.button {
+    border-radius: 8px;
+    border: 1px solid #52b3d9;
+    background-color: #52b3d9;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    transition: transform 80ms ease-in;
+}
+
+.tambahKeKeranjangButton {
+    border-radius: 8px;
+    border: 1px solid #52b3d9;
+    background-color: #52b3d9;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    transition: transform 80ms ease-in;
+}
+
+.gif-data {
+    width: 70%;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info h5 {
+        font-size: 16px;
+        color: #080808;
+    }
+
+    .produk-isi {
+        display: flex;
+        font-size: 14px;
+    }
+
+    .card-text-container {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .dalam-postingan {
+        margin: 0 auto;
+        /* Menempatkan tampilan di tengah */
+        width: 90%;
+        gap: 5px;
+    }
+
+    .postingan {
+        width: 100%;
+        /* Lebar elemen menjadi 100% pada ukuran layar kecil */
+        margin-left: 12px;
+        /* Hapus margin kiri pada ukuran layar kecil */
+        margin-right: -5px;
+        height: 80px;
+        max-width: calc(35% - 20px);
+        /* Lebar maksimum elemen */
+        margin-bottom: 10px;
+    }
+
+    .button-modal-1 {
+        display: inline-block;
+        font-size: 15px;
+        text-decoration: none;
+        background-color: #ffc10700;
+        /* Warna latar belakang */
+        color: #fff;
+        /* Warna teks */
+        border-radius: 8px;
+        /* Bentuk border */
+        cursor: pointer;
+    }
+
+    .btn-close-1 {
+        display: inline-block;
+        font-size: 15px;
+        text-decoration: none;
+        color: #fff;
+        /* Warna teks */
+        cursor: pointer;
+        background-color: transparent;
+        /* Hapus latar belakang tombol */
+        border: none;
+        /* Hapus border tombol */
+    }
+
+    .text-notifikasi {
+        display: block;
+        white-space: normal;
+    }
+
+    .gif-data {
+        width: 70%;
+    }
+}

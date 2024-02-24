@@ -1,0 +1,59 @@
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 160px;
+    }
+  }
+
+  @keyframes erasing {
+    from {
+      width: 160px;
+    }
+    to {
+      width: 0;
+    }
+  }
+
+  h6 {
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: -5px;
+    animation: typing 2s steps(20, end) forwards, erasing 2s steps(20, end) 4s forwards;
+  }
+
+  .garis {
+    width: 1px;
+    height: 80%;
+    border-right: 2px solid #fff;
+    margin-left: 170px;
+    position: absolute;
+  }
+
+  .navbar-nav-1{
+    position: absolute;
+    display: flex;
+    margin-left: 180px;
+    margin-bottom: -5px;
+    list-style-type: none;
+  }
+
+  @media (max-width: 768px) {
+    h6 {
+      display: none;
+    }
+
+    .garis{
+      display: none;
+    }
+
+    .navbar-nav-1{
+      right: 0;
+    }
+  }

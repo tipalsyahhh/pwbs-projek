@@ -1,0 +1,88 @@
+#content {
+    height: 100vh;
+    /* Membuat tinggi elemen menjadi 100% dari tinggi tampilan */
+    /* Anda dapat menyesuaikan properti lain sesuai kebutuhan */
+}
+
+.user-admin {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #3d3d3db6;
+    padding: 10px 10px 10px 10px;
+    z-index: 999;
+    border-radius: 0 50% 50% 0;
+}
+
+.fouter-user {
+    background: rgba(255, 255, 255, 0.09);
+    backdrop-filter: blur(4.3px);
+    padding: 13px 0;
+    position: fixed;
+    bottom: 0;
+    width: 85%;
+    border-radius: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    border: 1px solid #333;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.isi-menu {
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    position: relative;
+}
+
+.isi-icon {
+    margin-right: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+.isi-icon i {
+    transition: color 0.3s;
+}
+
+.isi-icon:hover i {
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+#nav-like,
+#nav-welcome,
+#nav-status,
+#nav-follow {
+display: none;
+}
+
+.fouter-user {
+display: block;
+}
+}
+
+@media (min-width: 769px) {
+#nav-like,
+#nav-welcome,
+#nav-status,
+#nav-follow {
+display: block;
+}
+
+.fouter-user {
+display: none;
+}
+}

@@ -1,0 +1,90 @@
+.judul-keranjang {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #929292;
+    padding: 8px;
+    margin-bottom: 10px;
+    color: #333;
+    background-color: #ffffff00;
+    z-index: 1;
+    position: relative;
+    margin-top: 30px;
+}
+
+.btn-market {
+    width: 50%;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    border: 1px solid #3fafff;
+    color: #000;
+    padding: 5px 10px;
+    transition: transform 80ms ease-in;
+}
+
+.card-keranjang {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #929292;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.isi-keranjang {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: -7px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.button-keranjang {
+    margin-left: auto;
+    border-radius: 8px;
+    border: 1px solid #2eada7;
+    background-color: #2eada7;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 10px;
+    letter-spacing: 1px;
+    transition: transform 80ms ease-in;
+}
+
+.image-keranjang {
+    width: 100px;
+    border-radius: 8px;
+}
+
+.no-data {
+    left: 50%;
+}
+
+.gif-data {
+    width: 60%;
+}
+
+@media (max-width: 768px) {
+    .no-data {
+        position: absolute;
+        top: 42%;
+        transform: translate(-50%, -50%);
+    }
+
+    .gif-data {
+        width: 100%;
+    }
+
+    .isi-keranjang .desktop-text {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .isi-keranjang .mobile-text {
+        display: none;
+    }
+}

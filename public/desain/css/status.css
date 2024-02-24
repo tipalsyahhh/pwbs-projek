@@ -1,0 +1,449 @@
+/* Container utama */
+
+.modal-content {
+    margin-bottom: 20px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 100%;
+    /* Lebar sesuai kebutuhan Anda */
+    height: auto;
+    /* Tinggi sesuai kebutuhan Anda */
+    cursor: pointer;
+    overflow: hidden;
+    position: center;
+}
+
+#profile-modal img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.modal-status {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-clip: padding-box;
+    border-radius: 0.3rem;
+    outline: 0;
+    margin-bottom: 15px;
+}
+
+.form-comentar {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.form-comen {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6e707e;
+    background-color: #ffffff00;
+    background-clip: padding-box;
+    border: none;
+}
+
+/* Container untuk teks di dalam card */
+.card-text-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Teks dalam card */
+.card-text {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.atas-user {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.info h5 {
+    color: #080808;
+}
+
+.dalam-postingan {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    /* Menambahkan gap antar elemen */
+    justify-content: flex-start;
+    /* Menaruh elemen-elemen di sebelah kiri */
+}
+
+.postingan {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 0 1 calc(45% - 20px);
+    /* Lebar maksimum elemen */
+    max-width: calc(30% - 20px);
+    /* Lebar maksimum elemen */
+    height: 400px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.postingan img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.postingan img:hover {
+    transform: scale(1.2);
+}
+
+.info-posting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.user-postingan {
+    display: flex;
+    align-items: center;
+}
+
+.button-posting {
+    display: inline-block;
+    margin-left: 43%;
+    text-decoration: none;
+    color: #080808;
+    /* Warna teks */
+    cursor: pointer;
+    background-color: transparent;
+    /* Hapus latar belakang tombol */
+    border: none;
+    /* Hapus border tombol */
+}
+
+.button-modal-1 {
+    display: inline-block;
+    font-size: 20px;
+    /* Sesuaikan ukuran font sesuai kebutuhan Anda */
+    margin-left: 40%;
+    text-decoration: none;
+    background-color: #ffc10700;
+    /* Warna latar belakang */
+    color: #fff;
+    /* Warna teks */
+    border-radius: 8px;
+    /* Bentuk border */
+    cursor: pointer;
+}
+
+.btn-close-1 {
+    display: inline-block;
+    font-size: 20px;
+    /* Sesuaikan ukuran font sesuai kebutuhan Anda */
+    margin-left: 43%;
+    text-decoration: none;
+    color: #fff;
+    /* Warna teks */
+    cursor: pointer;
+    background-color: transparent;
+    /* Hapus latar belakang tombol */
+    border: none;
+    /* Hapus border tombol */
+}
+
+.modal-asu-like {
+    position: fixed;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    max-height: 70%;
+    overflow-y: auto;
+    background-color: rgb(137 137 137 / 24%);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+.isi-like-modal{
+    padding: 10px;
+}
+
+.modal-like{
+    display: flex;
+    width: 100%;
+}
+
+.judul-like{
+    display: flex;
+    padding: 10px;
+}
+
+.garis-like{
+    border-bottom: 1px solid #6e707e;
+}
+
+.name-user{
+    width: 75%;
+}
+
+.follow-user{
+    width: 35%;
+}
+
+.button-follow{
+    width: 100%;
+    background-color: #2eada7;
+    border-color: #2eada7;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 6px 10px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #2eada7;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button-user-like-comen {
+    display: flex;
+    gap: 10px;
+    /* Sesuaikan jarak antara kedua elemen */
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-user-like-comen form {
+    margin: 0;
+    /* Hapus margin bawaan dari form */
+}
+
+.button-user-like-comen button {
+    border: none;
+    /* Hapus border pada tombol */
+    background: none;
+    /* Hapus latar belakang tombol */
+    cursor: pointer;
+}
+
+.button-user-like-comen a {
+    text-decoration: none;
+    /* Hapus dekorasi teks pada tautan */
+    color: #080808;
+    /* Gunakan warna teks default */
+}
+
+.button-user-like-comen a:hover {
+    text-decoration: none;
+    /* Hapus efek hover */
+    color: #080808;
+}
+
+.wadah-foto {
+    width: 100%;
+    height: 450px;
+}
+
+.wadah-foto img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .wadah-foto {
+        width: 100%;
+        height: 100%;
+    }
+
+    .wadah-foto img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+
+    .modal-asu-like {
+        width: 90%;
+        max-height: 80%;
+        left: 50%;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info h5 {
+        font-size: 16px;
+        color: #080808;
+    }
+
+    .button-edit {
+        display: inline-block;
+        padding: 4px 8px;
+        margin-left: 0%;
+        font-size: 14px;
+        text-decoration: none;
+        background-color: transparent;
+        color: #181818;
+        border: 1px solid #616060;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .button-modal {
+        display: inline-block;
+        font-size: 15px;
+        margin: 0;
+        text-decoration: none;
+        background-color: #ffc10700;
+        color: #fff;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .btn-close {
+        display: inline-block;
+        font-size: 15px;
+        margin-left: 0%;
+        text-decoration: none;
+        color: #fff;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+
+    .card-text-container {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .dalam-postingan {
+        margin: 0 auto;
+        width: 90%;
+        gap: 5px;
+    }
+
+    .postingan {
+        width: 100%;
+        margin-left: 12px;
+        margin-right: -5px;
+        height: 80px;
+        max-width: calc(35% - 20px);
+        margin-bottom: 10px;
+    }
+
+    .button-modal-1 {
+        display: inline-block;
+        font-size: 15px;
+        text-decoration: none;
+        background-color: #ffc10700;
+        color: #fff;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .btn-close-1 {
+        display: inline-block;
+        font-size: 15px;
+        text-decoration: none;
+        color: #fff;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+}
+
+
+    .card-text:not(:last-child) {
+        margin-right: 25px;
+    }
+
+    hr {
+        margin-top: 20px;
+        border: 1px solid #ccc;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .button-container button,
+    .button-container a {
+        margin-right: 10px;
+    }
+
+    .card-footer span {
+        font-weight: bold;
+    }
+
+    .garis {
+        border-top: 1px solid gray;
+    }
+
+    .batas {
+        border-bottom: 1px solid white;
+    }
+
+    .center-icon {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .center-icon i span {
+        font-size: 0.8em;
+        color: gray;
+        font-weight: bold;
+        margin-top: 5px;
+        font-style: normal;
+    }
+
+    .card-footer {
+        display: none;
+    }
+
+    .status-image {
+        cursor: pointer;
+    }
+
+    .form-control:hover {
+        color: #080808;
+    }

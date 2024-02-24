@@ -1,0 +1,120 @@
+    .container-history {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    #success-alert {
+        display: none;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .alert {
+        margin-bottom: 20px;
+    }
+
+    .cart-histori {
+        border: none;
+        overflow: hidden;
+    }
+
+    .header-history {
+        background-color: #ffffff00;
+        font-weight: bold;
+        padding: 7px;
+        margin-top: 12px;
+        text-align: left;
+        border: 1px solid #fff;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 10px;
+    }
+    
+    .header-history h1 {
+        font-size: 20px;
+        font-family: var(--bs-font-sans-serif);
+        color: #333;
+        font-weight: bold;
+        margin-bottom: -2px;
+    }
+    
+    .reset {
+        border: none;
+        background-color: #ffffff00;
+        color: #333;
+        font-size: 12px;
+        margin: 0;
+        font-weight: bold;
+    }
+    
+
+    .isi-histori {
+        display: block;
+        width: 100%;
+        /* padding: 0.25rem 1.5rem; */
+        clear: both;
+        font-weight: 400;
+        color: #3a3b45;
+        text-align: inherit;
+        white-space: nowrap;
+        background-color: transparent;
+        border: 0;
+    }
+
+    .text-histori {
+        padding: 10px;
+        border-bottom: 1px solid #ddd; /* Garis batas hanya di bagian bawah dengan warna abu-abu */
+        transition: background-color 0.3s;
+        margin-bottom: 8px;
+    }
+
+    .text-histori:hover {
+        background-color: #e0e0e0;
+        /* Warna latar belakang saat hover */
+        cursor: pointer;
+        /* Mengubah kursor menjadi tanda tangan saat hover */
+    }
+
+    .text-histori p {
+        margin: 0;
+        font-size: 10px;
+        color: #080808;
+    }
+
+    .text-histori p:last-child {
+        text-align: right;
+        /* Menempatkan teks pada ujung kanan */
+    }
+
+    p.text-menu {
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    .text-notifikasi {
+        color: black;
+        white-space: normal;
+    }
+
+    .gif-data{
+        width: 50%;
+    }
+    
+    @media (max-width: 767px) {
+        .text-notifikasi {
+            display: block;
+            white-space: normal;
+        }
+    
+        .gif-data{
+            width: 100%;
+        }
+    }
+    

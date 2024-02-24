@@ -1,0 +1,465 @@
+/* Container utama */
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Foto profil */
+.profile-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+/* Detail profil */
+.profile-details {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* Container untuk teks di dalam card */
+.card-text-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: -8px;
+    margin-left: -10px;
+}
+
+/* Teks dalam card */
+.card-text {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.atas-user {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.info h5 {
+    color: #080808;
+}
+
+.button-edit {
+    display: inline-block;
+    padding: 6px 10px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffc10700;
+    color: #080808;
+    border: 1px solid rgb(141, 141, 139);
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.button-modal {
+    display: inline-block;
+    font-size: 20px;
+    /* Sesuaikan ukuran font sesuai kebutuhan Anda */
+    text-decoration: none;
+    background-color: #ffc10700;
+    /* Warna latar belakang */
+    color: #fff;
+    /* Warna teks */
+    border-radius: 8px;
+    /* Bentuk border */
+    cursor: pointer;
+}
+
+.btn-close {
+    display: inline-block;
+    font-size: 20px;
+    /* Sesuaikan ukuran font sesuai kebutuhan Anda */
+    margin-left: 43%;
+    text-decoration: none;
+    color: #fff;
+    /* Warna teks */
+    cursor: pointer;
+    background-color: transparent;
+    /* Hapus latar belakang tombol */
+    border: none;
+    /* Hapus border tombol */
+}
+
+.colum-stalking {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -5px;
+    width: 100%;
+}
+
+.button-follow {
+    display: inline-block;
+    width: 100%;
+    /* Mengatur lebar tombol menjadi setengah dari lebar kolom */
+    padding: 6px 10px;
+    margin-right: 10px;
+    /* Menambahkan margin kanan antar tombol */
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffc10700;
+    color: #080808;
+    border: 1px solid rgb(141, 141, 139);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.button-unfollow {
+    display: inline-block;
+    padding: 6px 10px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffc10700;
+    color: #080808;
+    border: 1px solid rgb(141, 141, 139);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.dalam-postingan {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.postingan {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 250px;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.postingan img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+
+.postingan img:hover {
+    transform: scale(1.2);
+}
+
+.info-posting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.user-postingan {
+    display: flex;
+    align-items: center;
+}
+
+.button-asu {
+    display: flex;
+}
+
+.button-posting {
+    display: inline-block;
+    margin-left: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #080808;
+    /* Warna teks */
+    cursor: pointer;
+    background-color: transparent;
+    /* Hapus latar belakang tombol */
+    border: none;
+    /* Hapus border tombol */
+}
+
+.button-modal-1 {
+    display: inline-block;
+    font-size: 20px;
+    /* Sesuaikan ukuran font sesuai kebutuhan Anda */
+    margin-left: 40%;
+    text-decoration: none;
+    background-color: #ffc10700;
+    /* Warna latar belakang */
+    color: #fff;
+    /* Warna teks */
+    border-radius: 8px;
+    /* Bentuk border */
+    cursor: pointer;
+}
+
+.btn-close-1 {
+    display: inline-block;
+    font-size: 20px;
+    /* Sesuaikan ukuran font sesuai kebutuhan Anda */
+    margin-left: 43%;
+    text-decoration: none;
+    color: #fff;
+    /* Warna teks */
+    cursor: pointer;
+    background-color: transparent;
+    /* Hapus latar belakang tombol */
+    border: none;
+    /* Hapus border tombol */
+}
+
+.button-user-like-comen {
+    display: flex;
+    gap: 10px;
+    /* Sesuaikan jarak antara kedua elemen */
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-user-like-comen form {
+    margin: 0;
+    /* Hapus margin bawaan dari form */
+}
+
+.button-user-like-comen button {
+    border: none;
+    /* Hapus border pada tombol */
+    background: none;
+    /* Hapus latar belakang tombol */
+    cursor: pointer;
+}
+
+.button-user-like-comen a {
+    text-decoration: none;
+    /* Hapus dekorasi teks pada tautan */
+    color: #080808;
+    /* Gunakan warna teks default */
+}
+
+.button-user-like-comen a:hover {
+    text-decoration: none;
+    /* Hapus efek hover */
+    color: #080808;
+}
+
+.card-text:not(:last-child) {
+    margin-right: 25px;
+    /* Menambahkan jarak antara elemen kecuali elemen terakhir */
+}
+
+/* Media query untuk layar kecil (contoh: ukuran maksimum 768px) */
+@media (max-width: 768px) {
+
+    /* Foto profil diubah untuk ukuran layar HP */
+    .profile-image {
+        width: 100px;
+        height: 100px;
+        margin-right: -10;
+    }
+
+    /* Detail profil diubah untuk ukuran layar HP */
+    .profile-details {
+        margin-left: 0;
+        text-align: center;
+        /* Menengahkan teks pada layar HP */
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .info h5 {
+        font-size: 20px;
+        color: #080808;
+    }
+
+    .button-edit {
+        display: inline-block;
+        padding: 4px 8px;
+        /* Sesuaikan padding sesuai kebutuhan Anda */
+        margin-left: 0%;
+        font-size: 14px;
+        /* Sesuaikan ukuran font sesuai kebutuhan Anda */
+        text-decoration: none;
+        background-color: transparent;
+        /* Warna latar belakang */
+        color: #181818;
+        /* Warna teks */
+        border: 1px solid #616060;
+        /* Warna border */
+        border-radius: 8px;
+        /* Bentuk border */
+        cursor: pointer;
+    }
+
+    .button-modal {
+        display: inline-block;
+        font-size: 15px;
+        /* Sesuaikan ukuran font sesuai kebutuhan Anda */
+        margin: 0;
+        text-decoration: none;
+        background-color: #ffc10700;
+        /* Warna latar belakang */
+        color: #fff;
+        /* Warna teks */
+        border-radius: 8px;
+        /* Bentuk border */
+        cursor: pointer;
+    }
+
+    .btn-close {
+        display: inline-block;
+        font-size: 15px;
+        /* Sesuaikan ukuran font sesuai kebutuhan Anda */
+        margin-left: 0%;
+        text-decoration: none;
+        color: #fff;
+        /* Warna teks */
+        cursor: pointer;
+        background-color: transparent;
+        /* Hapus latar belakang tombol */
+        border: none;
+        /* Hapus border tombol */
+    }
+
+    /* Container untuk teks di dalam card diubah untuk ukuran layar HP */
+    .card-text-container {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .dalam-postingan {
+        margin: 0 0 0 -17px;
+        width: 110%;
+        gap: 1px;
+    }
+
+    .postingan {
+        width: 100%;
+        margin-left: 12px;
+        margin-right: -5px;
+        height: 100px;
+        max-width: calc(30% - 1px);
+        margin-bottom: 10px;
+    }
+
+    .button-modal-1 {
+        display: inline-block;
+        font-size: 15px;
+        text-decoration: none;
+        background-color: #ffc10700;
+        /* Warna latar belakang */
+        color: #fff;
+        /* Warna teks */
+        border-radius: 8px;
+        /* Bentuk border */
+        cursor: pointer;
+    }
+
+    .btn-close-1 {
+        display: inline-block;
+        font-size: 15px;
+        text-decoration: none;
+        color: #fff;
+        /* Warna teks */
+        cursor: pointer;
+        background-color: transparent;
+        /* Hapus latar belakang tombol */
+        border: none;
+        /* Hapus border tombol */
+    }
+
+    .card-text:not(:last-child) {
+        margin-right: auto;
+        /* Menambahkan jarak antara elemen kecuali elemen terakhir */
+    }
+
+}
+
+/* Styling untuk garis */
+hr {
+    margin-top: 20px;
+    /* Atur jarak atas dari garis */
+    border: 1px solid #ccc;
+    /* Warna dan gaya garis sesuai kebutuhan */
+}
+
+/* Styling untuk tombol Like dan Comment */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.button-container button,
+.button-container a {
+    margin-right: 10px;
+    /* Atur jarak antara tombol */
+}
+
+/* Styling untuk jumlah Likes dan Comments */
+.card-footer span {
+    font-weight: bold;
+}
+
+.garis-1 {
+    border-top: 1px solid gray;
+    /* Lebar 1 piksel, warna abu-abu (gray) */
+}
+
+.batas {
+    border-bottom: 1px solid white;
+}
+
+.center-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* Jarak dengan elemen di bawahnya */
+}
+
+.center-icon i span {
+    font-size: 0.8em;
+    /* Ukuran teks dalam elemen <span> */
+    color: gray;
+    /* Warna teks dalam elemen <span> */
+    font-weight: bold;
+    /* Teks tebal */
+    margin-top: 5px;
+    /* Jarak atas dari teks <span> */
+    font-style: normal;
+    /* Teks tidak miring */
+}
+
+.card-footer {
+    display: none;
+}
+
+.status-image {
+    cursor: pointer;
+}

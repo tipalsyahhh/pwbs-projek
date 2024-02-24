@@ -1,0 +1,304 @@
+    .card-body p {
+        margin-bottom: -5px;
+    }
+
+    .caption p {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .judul-comentar {
+        background-color: #f8f9fc;
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .judul-comentar h6 {
+        margin: 0;
+    }
+
+    .comment-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    .comment-list li {
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .comment-list li strong {
+        font-weight: bold;
+    }
+
+    .comment-list .comment-user {
+        color: #333;
+    }
+
+    .comment-list .comment-text {
+        color: #666;
+    }
+
+    #add-comment-button {
+        margin-bottom: 10px;
+    }
+
+    #comment-created-at {
+        float: right;
+        margin-top: -20px;
+        margin-right: 10px;
+    }
+
+    .modal-status {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        pointer-events: auto;
+        border-radius: 0.3rem;
+        outline: 0;
+        margin-top: 10px;
+    }
+    .user-postingan {
+        display: flex;
+        align-items: center;
+    }
+    
+    .info-posting {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .comentar-item {
+        display: flex;
+        margin-bottom: 10px;
+        padding: 10px;
+        color: #080808;
+    }
+
+    .comentar-item img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .comentar-details {
+        flex: 1;
+        margin-left: 10px;
+    }
+
+    .comment-user {
+        font-weight: bold;
+    }
+
+    .comentar-user {
+        font-size: 12px;
+        position: absolute;
+        right: 10px;
+    }
+
+    .comment-text {
+        color: gray;
+    }
+
+    .garis-comentar {
+        border-bottom: 1px solid #fff;
+        margin-bottom: 10px;
+    }
+
+    #emoticon-header,
+    #emoticon-container {
+        padding: 10px;
+        margin: 0 auto;
+        width: 50%;
+        max-height: 200px;
+    }
+
+    #emoticon-header {
+        background-color: #dddddd;
+        border-radius: 10px 10px 0 0;
+    }
+
+    #emoticon-header p {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    #emoticon-container {
+        background-color: #f8f6f6;
+        overflow-y: auto;
+        border-radius: 0 0 10px 10px;
+        margin-bottom: 10px;
+    }
+
+    .isi-emoticon {
+        background-color: transparent;
+        border: none;
+        margin: 5 5 5 11;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    #emoticon-container p {
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    .form-comentar {
+        display: flex;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .user-info,
+    .form-comentar {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .img-profile {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    #comment-form {
+        display: flex;
+        align-items: flex-start;
+        margin-left: 10px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .comen-group {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .input-group-icon-comentar {
+        display: flex;
+        margin-left: 5px;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    .kirim-comentar,
+    #emoticon-button,
+    #emoticon-button:focus,
+    #emoticon-button:active {
+        border: none;
+        outline: none;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    @media (max-width: 768px) {
+
+        #emoticon-header,
+        #emoticon-container {
+            padding: 10px;
+            margin: 0 auto;
+            width: 90%;
+            max-height: 200px;
+        }
+
+        #emoticon-header {
+            background-color: #dddddd;
+            border-radius: 10px 10px 0 0;
+        }
+
+        #emoticon-header p {
+            font-size: 20px;
+            color: #fff;
+        }
+
+        #emoticon-container {
+            background-color: #f8f6f6;
+            overflow-y: auto;
+            border-radius: 0 0 10px 10px;
+            margin-bottom: 10px;
+        }
+
+        .isi-emoticon {
+            background-color: transparent;
+            border: none;
+            margin: 0 0 0 13;
+            font-size: 13px;
+            cursor: pointer;
+        }
+
+        #emoticon-container p {
+            margin-left: 10px;
+            margin-bottom: 5px;
+        }
+
+        .form-comentar {
+            display: flex;
+            align-items: flex-start;
+            padding: 10px;
+        }
+
+        .user-info,
+        .form-comentar {
+            height: 40px;
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .img-profile-comentar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: -10;
+        }
+
+        .comen-group {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            margin-left: 10px;
+        }
+
+        .comen-group input {
+            font-size: 13px;
+        }
+
+        .input-group-icon-comentar {
+            display: flex;
+            margin-left: 5px;
+            ;
+        }
+
+        #comment-form {
+            display: flex;
+            align-items: flex-start;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        textarea {
+            width: 100%;
+        }
+
+        .kirim-comentar,
+        #emoticon-button,
+        #emoticon-button:focus,
+        #emoticon-button:active {
+            border: none;
+            outline: none;
+            background-color: rgba(0, 0, 0, 0);
+            margin-right: -5;
+        }
+    }
